@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ENNDynamic_Example' do
+  pod 'ENNDynamic', :path => '../'
+
+  target 'ENNDynamic_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
