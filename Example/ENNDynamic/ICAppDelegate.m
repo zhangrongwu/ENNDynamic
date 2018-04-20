@@ -7,12 +7,21 @@
 //
 
 #import "ICAppDelegate.h"
+#import "ICViewController.h"
 
 @implementation ICAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] init];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    [self.window makeKeyAndVisible];
+    
+    
+    ICViewController *viewController = [[ICViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:viewController];
+    self.window.rootViewController = nav;
     return YES;
 }
 

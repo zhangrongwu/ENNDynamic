@@ -20,6 +20,7 @@ PODS:
     - MBProgressHUD (~> 1.0.0)
     - MJExtension (~> 3.0.10)
     - MJRefresh (~> 3.1.14.1)
+    - MLLabel (~> 1.9.1)
     - SDWebImage (~> 3.7.6)
     - TZImagePickerController (~> 1.7.9)
     - UITableView+FDTemplateLayoutCell (~> 1.6)
@@ -28,6 +29,7 @@ PODS:
   - MBProgressHUD (1.0.0)
   - MJExtension (3.0.13)
   - MJRefresh (3.1.14.1)
+  - MLLabel (1.9.2)
   - SDWebImage (3.7.6):
     - SDWebImage/Core (= 3.7.6)
   - SDWebImage/Core (3.7.6)
@@ -46,11 +48,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  ENNDynamic: 8a9afe83c358389549325a01bc561677d7ab4e15
+  ENNDynamic: 71224c7a197d2f24a3a6ada39158b555c4ac4b70
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MJRefresh: 238e6a37e2dba12160ee3b79f6d2a2b26abcab42
+  MLLabel: df58127ce0bd1f87890ecc3232db77a85ce4cd97
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   TZImagePickerController: 0a8ff228d287ebdd7d485e8c42a2a932894f1fba
   UITableView+FDTemplateLayoutCell: 5c949b4a5059c404b442926c0e80f81d10a2d66f

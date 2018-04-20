@@ -19,6 +19,12 @@
     "ios": "8.0"
   },
   "source_files": "ENNDynamic/Classes/**/*",
+  "resources": "ENNDynamic/*.{bundle,png}",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "AVFoundation"
+  ],
   "dependencies": {
     "AFNetworking": [
       "~> 3.1.0"
@@ -46,6 +52,9 @@
     ],
     "UITableView+FDTemplateLayoutCell": [
       "~> 1.6"
+    ],
+    "MLLabel": [
+      "~> 1.9.1"
     ]
   }
 }

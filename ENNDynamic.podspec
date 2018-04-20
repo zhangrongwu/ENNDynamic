@@ -29,13 +29,11 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ENNDynamic/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ENNDynamic' => ['ENNDynamic/Assets/*.png']
-  # }
+  s.resources  = 'ENNDynamic/*.{bundle,png}'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  
+  s.frameworks = ['UIKit','AVFoundation']
   
   s.dependency 'AFNetworking', '~> 3.1.0'
   s.dependency 'Masonry',  '~> 1.1.0'
@@ -46,6 +44,9 @@ Pod::Spec.new do |s|
   s.dependency 'MJRefresh',    '~> 3.1.14.1'
   s.dependency 'TZImagePickerController',  '~> 1.7.9'
   s.dependency 'UITableView+FDTemplateLayoutCell', '~> 1.6'
+  
+  s.dependency 'MLLabel',  '~> 1.9.1'
+
 
 
 
