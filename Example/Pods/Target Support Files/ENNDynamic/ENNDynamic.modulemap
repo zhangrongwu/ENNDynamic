@@ -1,0 +1,6 @@
+framework module ENNDynamic {
+  umbrella header "ENNDynamic-umbrella.h"
+
+  export *
+  module * { export * }
+}

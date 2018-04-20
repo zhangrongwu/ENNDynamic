@@ -1,0 +1,51 @@
+{
+  "name": "ENNDynamic",
+  "version": "0.1.0",
+  "summary": "A short description of ENNDynamic.",
+  "description": "项目模块化设计重构，类似微信朋友圈,由于每个公司数据结构/需求不一致,部分功能代码可借鉴参考",
+  "homepage": "https://github.com/zhangrongwu/ENNDynamic",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangrongwu": "zhangrongwuios@sina.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangrongwu/ENNDynamic.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ENNDynamic/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.1.0"
+    ],
+    "Masonry": [
+      "~> 1.1.0"
+    ],
+    "YYKit": [
+      "~> 1.0.9"
+    ],
+    "SDWebImage": [
+      "~> 3.7.6"
+    ],
+    "MBProgressHUD": [
+      "~> 1.0.0"
+    ],
+    "MJExtension": [
+      "~> 3.0.10"
+    ],
+    "MJRefresh": [
+      "~> 3.1.14.1"
+    ],
+    "TZImagePickerController": [
+      "~> 1.7.9"
+    ],
+    "UITableView+FDTemplateLayoutCell": [
+      "~> 1.6"
+    ]
+  }
+}

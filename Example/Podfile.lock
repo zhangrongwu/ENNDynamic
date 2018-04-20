@@ -1,0 +1,61 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - ENNDynamic (0.1.0):
+    - AFNetworking (~> 3.1.0)
+    - Masonry (~> 1.1.0)
+    - MBProgressHUD (~> 1.0.0)
+    - MJExtension (~> 3.0.10)
+    - MJRefresh (~> 3.1.14.1)
+    - SDWebImage (~> 3.7.6)
+    - TZImagePickerController (~> 1.7.9)
+    - UITableView+FDTemplateLayoutCell (~> 1.6)
+    - YYKit (~> 1.0.9)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.14.1)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - TZImagePickerController (1.7.9)
+  - UITableView+FDTemplateLayoutCell (1.6)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - ENNDynamic (from `../`)
+
+EXTERNAL SOURCES:
+  ENNDynamic:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  ENNDynamic: 8a9afe83c358389549325a01bc561677d7ab4e15
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: 238e6a37e2dba12160ee3b79f6d2a2b26abcab42
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  TZImagePickerController: 0a8ff228d287ebdd7d485e8c42a2a932894f1fba
+  UITableView+FDTemplateLayoutCell: 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 37827713f4ee06bdf6368c33dfad4d599390f530
+
+COCOAPODS: 1.4.0
