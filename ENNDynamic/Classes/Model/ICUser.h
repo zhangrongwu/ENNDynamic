@@ -55,19 +55,6 @@
 
 
 
-
-//account = dingyisheng;
-//eId = 10029843;
-//eName = "\U4e01\U4ebf\U751f";
-//email = "DINGYISHENG@ENN.CN";
-//jobTitle = "\U8f6f\U4ef6\U5f00\U53d1\U4e2d\U7ea7\U5de5\U7a0b\U5e08-IT";
-//mobile = 18519395235;
-//oId = 50106381;
-//oName = "\U5e94\U7528\U6280\U672f\U90e8";
-//password = "<null>";
-//phone = 13701355535;
-//
-
 // 当前用户
 + (ICUser *)currentUser;
 + (void)releaseUser;
